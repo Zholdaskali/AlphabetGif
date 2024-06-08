@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-COPY src/main/resources/application.yaml /app/src/main/resources/application.yaml
+COPY src/main/resources/application.yml /app/src/main/resources/application.yml
 
 COPY build/libs/*.jar /app/application.jar
 
