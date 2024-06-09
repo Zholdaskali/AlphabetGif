@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("/api/userResult")
+@RequestMapping("/api/v1/userResult")
 @CrossOrigin(origins = ["*"])
 class UserResultController(
     private val userResultRepository: UserResultRepository,
