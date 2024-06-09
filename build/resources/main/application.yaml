@@ -2,9 +2,9 @@ server:
   port: ${PORT:8080}
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-cpi4sea1hbls73bc6cc0-a:5432/alphabet_gif_57zt
-    username: alphabet_admin
-    password: eG72rCO4z7pG2myGVDHBXbhy4lThyCY9
+    url: jdbc:postgresql://localhost:5432/alphabet_gif
+    username: postgres
+    password: erke
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -12,3 +12,19 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+#server:
+#  port: ${PORT:8080}
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://dpg-cpi4sea1hbls73bc6cc0-a.singapore-postgres.render.com:5432/alphabet_gif_57zt
+#    username: alphabet_admin
+#    password: eG72rCO4z7pG2myGVDHBXbhy4lThyCY9
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
